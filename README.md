@@ -6,7 +6,7 @@ This action comments a gif of rick ashley when someone opens a new issue.
 
 ### `percentage`
 
-**Required** How many people out of hundred should be rickrolled (set this to 100 if you want to rickroll everyone).
+**Required** Number of people out of hundred should be rickrolled (set this to 100 if you want to rickroll everyone).
 
 ### `message`
 
