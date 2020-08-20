@@ -1,6 +1,6 @@
 # Random Rick-Roll
 
-This action comments a gif of rick ashley when someone opens a new issue.
+This action comments a gif of Rick Astley when someone opens a new issue.
 
 ## Inputs
 
