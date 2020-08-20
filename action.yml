@@ -1,0 +1,20 @@
+name: 'Random RickRoll'
+branding:
+  icon: 'message-circle'  
+  color: 'blue'
+description: 'Make GitHub rick-roll innocent people.'
+author: 'Tejasv Sharma'
+inputs: 
+  percentage:
+    description: 'How many people out of hundred should be rickrolled (set this to 100 if you want to rickroll everyone)'
+    required: true
+  message:
+    description: 'Comment message when not rickrolling (Optional : No comment would be made if not provided)'
+    required: false
+    default: ''
+  GITHUB_TOKEN:
+    description: 'Github token of the repository'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
