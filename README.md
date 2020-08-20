@@ -17,8 +17,11 @@ This action comments a gif of rick ashley when someone opens a new issue.
 **Required** Github token of the repository.
 
 
-## Example usage
 
+Try Opening an issue in this repository : [Demo](https://github.com/TejasvOnly/rickrolldemo)
+
+
+## Example usage
 
 
 ```
