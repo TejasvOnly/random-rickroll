@@ -4,7 +4,7 @@ const github = require('@actions/github');
 async function run() {
   try {
     const percentage = core.getInput('percentage');
-    const message;
+    var message;
     if(percentage > Math.floor(Math.random() * 100)){
         message = '![rickroll](https://user-images.githubusercontent.com/37572049/90699500-0cc3ec00-e2a1-11ea-8d13-989526e86b0e.gif)';
         console.log('Gottem!!');
