@@ -26,7 +26,7 @@ async function run() {
     }
     const issue_number = context.payload.issue.number;
 
-    const octokit = new github.GitHub(github_token);
+    const octokit = new github.getOctokit(github_token);
     const new_comment = octokit.issues.createComment({
         ...context.repo,
         issue_number: issue_number,
