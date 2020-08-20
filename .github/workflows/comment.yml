@@ -13,5 +13,6 @@ jobs:
       - name: main
         uses: ./
         with:
+          message: 'If You can read this you just got lucky!'
           percentage: 50
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
