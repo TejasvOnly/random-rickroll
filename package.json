@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/TejasvOnly/random-rickroll#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0"
   }
 }
