@@ -14,7 +14,7 @@ This action comments a gif of Rick Astley when someone opens a new issue.
 
 ### `GITHUB_TOKEN`
 
-**Optional** Github token of the repository. (Defaults to `${{ github.token }}` )
+**Optional** Github token of the repository. (Defaults to `${{ github.token }}`)
 
 
 
