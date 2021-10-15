@@ -15,7 +15,7 @@ inputs:
   GITHUB_TOKEN:
     description: 'Github token of the repository'
     required: false
-    default: "${{ github.token }}
+    default: '${{ github.token }}'
 runs:
   using: 'node12'
   main: 'index.js'
