@@ -14,7 +14,7 @@ This action comments a gif of Rick Astley when someone opens a new issue.
 
 ### `GITHUB_TOKEN`
 
-**Required** Github token of the repository.
+**Optional** Github token of the repository. (Defaults to `${{ github.token }}`)
 
 
 
@@ -37,5 +37,4 @@ jobs:
         uses: TejasvOnly/random-rickroll@v1.0
         with:
           percentage: 100
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}'
 ```
